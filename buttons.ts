@@ -12,31 +12,22 @@
 // Classes: 3222 | Enums: 480 | Offsets: 32 | Modules: 18
 //
 
-#pragma once
+export const Buttons = {
+    attack: 0x20488A0,
+    attack2: 0x2048930,
+    back: 0x2048B70,
+    duck: 0x2048E40,
+    forward: 0x2048AE0,
+    jump: 0x2048DB0,
+    left: 0x2048C00,
+    lookatweapon: 0x2338600,
+    reload: 0x2048810,
+    right: 0x2048C90,
+    showscores: 0x23384E0,
+    sprint: 0x2048780,
+    turnleft: 0x20489C0,
+    turnright: 0x2048A50,
+    use: 0x2048D20,
+    zoom: 0x2338570,
+} as const;
 
-#include <cstddef>
-#include <cstdint>
-
-#include <cstdint>
-
-namespace exitscam {
-    // Module: client.dll
-    namespace buttons {
-        constexpr std::ptrdiff_t attack = 0x20488A0;
-        constexpr std::ptrdiff_t attack2 = 0x2048930;
-        constexpr std::ptrdiff_t back = 0x2048B70;
-        constexpr std::ptrdiff_t duck = 0x2048E40;
-        constexpr std::ptrdiff_t forward = 0x2048AE0;
-        constexpr std::ptrdiff_t jump = 0x2048DB0;
-        constexpr std::ptrdiff_t left = 0x2048C00;
-        constexpr std::ptrdiff_t lookatweapon = 0x2338600;
-        constexpr std::ptrdiff_t reload = 0x2048810;
-        constexpr std::ptrdiff_t right = 0x2048C90;
-        constexpr std::ptrdiff_t showscores = 0x23384E0;
-        constexpr std::ptrdiff_t sprint = 0x2048780;
-        constexpr std::ptrdiff_t turnleft = 0x20489C0;
-        constexpr std::ptrdiff_t turnright = 0x2048A50;
-        constexpr std::ptrdiff_t use = 0x2048D20;
-        constexpr std::ptrdiff_t zoom = 0x2338570;
-    }
-}

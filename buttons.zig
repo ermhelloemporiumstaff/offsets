@@ -12,31 +12,24 @@
 // Classes: 3222 | Enums: 480 | Offsets: 32 | Modules: 18
 //
 
-#pragma once
-
-#include <cstddef>
-#include <cstdint>
-
-#include <cstdint>
-
-namespace exitscam {
+pub const exitscam = struct {
     // Module: client.dll
-    namespace buttons {
-        constexpr std::ptrdiff_t attack = 0x20488A0;
-        constexpr std::ptrdiff_t attack2 = 0x2048930;
-        constexpr std::ptrdiff_t back = 0x2048B70;
-        constexpr std::ptrdiff_t duck = 0x2048E40;
-        constexpr std::ptrdiff_t forward = 0x2048AE0;
-        constexpr std::ptrdiff_t jump = 0x2048DB0;
-        constexpr std::ptrdiff_t left = 0x2048C00;
-        constexpr std::ptrdiff_t lookatweapon = 0x2338600;
-        constexpr std::ptrdiff_t reload = 0x2048810;
-        constexpr std::ptrdiff_t right = 0x2048C90;
-        constexpr std::ptrdiff_t showscores = 0x23384E0;
-        constexpr std::ptrdiff_t sprint = 0x2048780;
-        constexpr std::ptrdiff_t turnleft = 0x20489C0;
-        constexpr std::ptrdiff_t turnright = 0x2048A50;
-        constexpr std::ptrdiff_t use = 0x2048D20;
-        constexpr std::ptrdiff_t zoom = 0x2338570;
-    }
-}
+    pub const buttons = struct {
+        pub const attack: usize = 0x20488A0;
+        pub const attack2: usize = 0x2048930;
+        pub const back: usize = 0x2048B70;
+        pub const duck: usize = 0x2048E40;
+        pub const forward: usize = 0x2048AE0;
+        pub const jump: usize = 0x2048DB0;
+        pub const left: usize = 0x2048C00;
+        pub const lookatweapon: usize = 0x2338600;
+        pub const reload: usize = 0x2048810;
+        pub const right: usize = 0x2048C90;
+        pub const showscores: usize = 0x23384E0;
+        pub const sprint: usize = 0x2048780;
+        pub const turnleft: usize = 0x20489C0;
+        pub const turnright: usize = 0x2048A50;
+        pub const use: usize = 0x2048D20;
+        pub const zoom: usize = 0x2338570;
+    };
+};
