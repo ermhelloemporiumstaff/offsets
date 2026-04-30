@@ -1,9 +1,9 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-29 09:50:59.083211800 UTC
+// 2026-04-30 18:13:06.003421100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 560
+    // Class count: 535
     // Enum count: 12
     public static class ClientDll {
         // Alignment: 4
@@ -5808,106 +5808,6 @@ namespace CS2Dumper.Schemas {
             public const nint m_PreGenerationKVs = 0x18; // KeyValues3
             public const nint m_FinalKVs = 0x58; // KeyValues3
             public const nint m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_INPUT_MODE_CLAMPED {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TYPE_PERLIN {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_ROUND_TYPE_NEAREST {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_RANDOM_MODE_CONSTANT {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_MAP_TYPE_DIRECT {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_TYPE_LITERAL {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PARTICLE_COLOR_BLEND_MULTIPLY {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_ROUND_TYPE_NEAREST {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_RANDOM_MODE_CONSTANT {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_MAP_TYPE_DIRECT {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_INPUT_MODE_CLAMPED {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TYPE_PERLIN {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_ROUND_TYPE_NEAREST {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_RANDOM_MODE_CONSTANT {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_MAP_TYPE_DIRECT {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_INPUT_MODE_CLAMPED {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TYPE_PERLIN {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PVEC_TYPE_LITERAL_COLOR {
         }
     }
 }

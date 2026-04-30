@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-29 09:50:59.083211800 UTC
+// 2026-04-30 18:13:06.003421100 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 560
+        // Class count: 535
         // Enum count: 12
         pub const client_dll = struct {
             // Alignment: 4
@@ -5809,106 +5809,6 @@ pub const cs2_dumper = struct {
                 pub const m_PreGenerationKVs: usize = 0x18; // KeyValues3
                 pub const m_FinalKVs: usize = 0x58; // KeyValues3
                 pub const m_vecGeneratedTextures: usize = 0x80; // CUtlVector<GeneratedTextureHandle_t>
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_INPUT_MODE_CLAMPED = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TYPE_PERLIN = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_ROUND_TYPE_NEAREST = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_RANDOM_MODE_CONSTANT = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_MAP_TYPE_DIRECT = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_TYPE_LITERAL = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PARTICLE_COLOR_BLEND_MULTIPLY = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_ROUND_TYPE_NEAREST = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_RANDOM_MODE_CONSTANT = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_MAP_TYPE_DIRECT = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_INPUT_MODE_CLAMPED = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TYPE_PERLIN = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_ROUND_TYPE_NEAREST = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_RANDOM_MODE_CONSTANT = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_MAP_TYPE_DIRECT = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_INPUT_MODE_CLAMPED = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TYPE_PERLIN = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PVEC_TYPE_LITERAL_COLOR = struct {
             };
         };
     };

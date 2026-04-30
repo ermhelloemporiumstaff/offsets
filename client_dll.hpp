@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-29 09:50:59.083211800 UTC
+// 2026-04-30 18:13:06.003421100 UTC
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace cs2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 560
+        // Class count: 535
         // Enum count: 12
         namespace client_dll {
             // Alignment: 4
@@ -5814,106 +5814,6 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_PreGenerationKVs = 0x18; // KeyValues3
                 constexpr std::ptrdiff_t m_FinalKVs = 0x58; // KeyValues3
                 constexpr std::ptrdiff_t m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_INPUT_MODE_CLAMPED {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TYPE_PERLIN {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_ROUND_TYPE_NEAREST {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_RANDOM_MODE_CONSTANT {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_MAP_TYPE_DIRECT {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_TYPE_LITERAL {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PARTICLE_COLOR_BLEND_MULTIPLY {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_ROUND_TYPE_NEAREST {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_RANDOM_MODE_CONSTANT {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_MAP_TYPE_DIRECT {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_INPUT_MODE_CLAMPED {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TYPE_PERLIN {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_ROUND_TYPE_NEAREST {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_RANDOM_MODE_CONSTANT {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_MAP_TYPE_DIRECT {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_INPUT_MODE_CLAMPED {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TYPE_PERLIN {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PVEC_TYPE_LITERAL_COLOR {
             }
         }
     }
